@@ -55,18 +55,19 @@
                 <div id="kgOutput"></div>
               </div>
             </div>
-          </div>
 
-          <div class="card card-danger mb-2">
-            <div class="card-block">
-              <h4>Ounces :</h4>
-              <div id="ozOutput"></div>
+            <div class="card card-danger mb-2">
+              <div class="card-block">
+                <h4>Ounces :</h4>
+                <div id="ozOutput"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <script>
+      document.getElementById("output").style.visibility = "hidden";
       document
         .getElementById("lbsInput")
         .addEventListener("input", function(e) {
